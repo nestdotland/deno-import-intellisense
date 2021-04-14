@@ -24,12 +24,7 @@
     "target": "ES6",
     "skipLibCheck": true,
     "baseUrl": ".",
-    "paths": {
-      "@/utils/*": ["utils/*"],
-      "@/src/*": ["src/*"],
-      "@/lib/*": ["lib/*"]
-    }
   },
-  "include": ["src/**/*"],
+  "include": ["api/**/*"],
   "exclude": ["node_modules"]
 }
