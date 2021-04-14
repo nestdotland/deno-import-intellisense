@@ -7,6 +7,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "test": "tsc --noEmit",
     "fmt": "prettier --check .",
     "fmt:write": "prettier --write ."
   },
