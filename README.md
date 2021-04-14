@@ -8,7 +8,7 @@ To enable module intellisense for Nest, add the following to your VS Code Settin
 
 ```json
 {
-  "deno.suggest.import.hosts": {
+  "deno.suggest.imports.hosts": {
     "https://x.nest.land/": true
   }
 }
