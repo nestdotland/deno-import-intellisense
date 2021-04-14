@@ -7,5 +7,7 @@ export default async (req: VercelRequest, res: VercelResponse) => {
   const moduleVersionList = moduleInfo.packageUploadNames.map((version: string) =>
     version.replace(moduleName + '@', '')
   );
+
+  res.setHeader('Cache-Control', 'public, max-age=21600, s-maxage=21600, stale-while-revalidate');
   res.status(200).json(moduleVersionList.reverse());
 };
