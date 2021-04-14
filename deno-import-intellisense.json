@@ -6,15 +6,15 @@
       "variables": [
         {
           "key": "module",
-          "url": "https://intellisense.nest.land/x"
+          "url": "https://intellisense.nest.land/api/x"
         },
         {
           "key": "version",
-          "url": "https://intellisense.nest.land/x/${module}"
+          "url": "https://intellisense.nest.land/api/x/${module}"
         },
         {
           "key": "path",
-          "url": "https://intellisense.nest.land/x/${module}/${version}/paths"
+          "url": "https://intellisense.nest.land/api/x/${module}/${version}/paths"
         }
       ]
     }
