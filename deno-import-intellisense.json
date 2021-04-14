@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "registries": [
+    {
+      "schema": "/:package([a-z0-9_]*)@:version:path*",
+      "variables": [
+        {
+          "key": "package",
+          "url": "https://intellisense.nest.land/packages"
+        },
+        {
+          "key": "version",
+          "url": "https://intellisense.nest.land/packages/${package}/versions"
+        },
+        {
+          "key": "path",
+          "url": "https://intellisense.nest.land/packages/${package}/versions/${version}/paths"
+        }
+      ]
+    }
+  ]
+}
